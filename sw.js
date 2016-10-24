@@ -1,5 +1,5 @@
 const cache_name="ya cache v1"
-const cache_urls = ["offline/view.html","/DeveloperWeb/frontend/offline/style.css","/DeveloperWeb/frontend/offline/off.png"]
+const cache_urls = ["offline/view.html","/frontend/offline/style.css","/frontend/offline/off.png"]
 
 self.addEventListener("install",function(ev){
 	console.log("ServiceWorkers instalado")
